@@ -86,9 +86,10 @@ class operacionesActivity : AppCompatActivity() {
                 3 -> {res= operaciones.multiplicar()}
                 4 -> {res= operaciones.dividir()}
             }
-        } else Toast.makeText(this,"Falto capturar informacion",Toast.LENGTH_SHORT).show()
-            return res;
+        } else Toast.makeText(this,"Falto capturar  informacion",Toast.LENGTH_SHORT).show()
+        return res;
     }
+
     public fun eventosClic() {
         btnSumar.setOnClickListener(View.OnClickListener {
             opcion = 1;
